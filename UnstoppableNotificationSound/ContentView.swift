@@ -13,10 +13,13 @@ struct ContentView: View {
             Text("This demo project schedules a notification with a long alert sound with Notification Center.")
             Spacer().frame(height: 20)
             HStack {
-                Button("Fire Notification") {
+                Button("Fire Now") {
                     Notifications.shared.fireNotification()
                 }
-                Button("Stop Notification") {
+                Button("Fire 5s Later") {
+                    Notifications.shared.fireNotification(delay: 5)
+                }
+                Button("Remove Notification") {
                     Notifications.shared.cancelNotification()
                 }
             }

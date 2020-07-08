@@ -19,7 +19,7 @@ class Notifications: NSObject, UNUserNotificationCenterDelegate {
         static let NotificationID = "unstoppablenotificationsound"
     }
     
-    func fireNotification() {
+    func fireNotification(delay: TimeInterval? = nil) {
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
             if granted {
                 DispatchQueue.main.async {
@@ -27,8 +27,14 @@ class Notifications: NSObject, UNUserNotificationCenterDelegate {
                     content.title = "Weekly Staff Meeting"
                     content.body = "Every Tuesday at 2pm"
                     content.sound = .init(named: UNNotificationSoundName("DigitalWatchFS22627.m4a"))
+                    
+                    var trigger: UNTimeIntervalNotificationTrigger?
+                    if let delay = delay {
+                        trigger = .init(timeInterval: delay, repeats: false)
+                    }
+                    
                     let request = UNNotificationRequest(identifier: Constants.NotificationID,
-                                                        content: content, trigger: nil)
+                                                        content: content, trigger: trigger)
                     
                     UNUserNotificationCenter.current().add(request) { error in
                         guard let nErr = error else {
