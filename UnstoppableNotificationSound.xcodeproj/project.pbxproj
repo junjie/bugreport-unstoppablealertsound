@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B315003224B57FE900AC9FC5 /* UnstoppableNotificationSoundiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B315003124B57FE900AC9FC5 /* UnstoppableNotificationSoundiOSApp.swift */; };
+		B315003424B57FE900AC9FC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B315003324B57FE900AC9FC5 /* ContentView.swift */; };
+		B315003624B57FEA00AC9FC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B315003524B57FEA00AC9FC5 /* Assets.xcassets */; };
+		B315003924B57FEA00AC9FC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B315003824B57FEA00AC9FC5 /* Preview Assets.xcassets */; };
 		B3BAA91A24B56B8B00C24C1C /* UnstoppableNotificationSoundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BAA91924B56B8B00C24C1C /* UnstoppableNotificationSoundApp.swift */; };
 		B3BAA91C24B56B8B00C24C1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BAA91B24B56B8B00C24C1C /* ContentView.swift */; };
 		B3BAA91E24B56B9100C24C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BAA91D24B56B9100C24C1C /* Assets.xcassets */; };
 		B3BAA92124B56B9100C24C1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BAA92024B56B9100C24C1C /* Preview Assets.xcassets */; };
-		B3BAA94624B5705F00C24C1C /* DigitalWatchFS22627.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B3BAA94524B5705F00C24C1C /* DigitalWatchFS22627.m4a */; };
-		B3BAA94824B5716500C24C1C /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BAA94724B5716500C24C1C /* Notifications.swift */; };
+		B3DCF20C24B5985A008EDA55 /* DigitalWatchFS22627.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B3DCF20A24B5985A008EDA55 /* DigitalWatchFS22627.m4a */; };
+		B3DCF20D24B5985A008EDA55 /* DigitalWatchFS22627.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B3DCF20A24B5985A008EDA55 /* DigitalWatchFS22627.m4a */; };
+		B3DCF20E24B5985A008EDA55 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DCF20B24B5985A008EDA55 /* Notifications.swift */; };
+		B3DCF20F24B5985A008EDA55 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DCF20B24B5985A008EDA55 /* Notifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B315002F24B57FE900AC9FC5 /* UnstoppableNotificationSoundiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnstoppableNotificationSoundiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B315003124B57FE900AC9FC5 /* UnstoppableNotificationSoundiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnstoppableNotificationSoundiOSApp.swift; sourceTree = "<group>"; };
+		B315003324B57FE900AC9FC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B315003524B57FEA00AC9FC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B315003824B57FEA00AC9FC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B315003A24B57FEA00AC9FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3BAA91624B56B8B00C24C1C /* UnstoppableNotificationSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnstoppableNotificationSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BAA91924B56B8B00C24C1C /* UnstoppableNotificationSoundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnstoppableNotificationSoundApp.swift; sourceTree = "<group>"; };
 		B3BAA91B24B56B8B00C24C1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,11 +35,18 @@
 		B3BAA92024B56B9100C24C1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3BAA92224B56B9100C24C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3BAA92324B56B9100C24C1C /* UnstoppableNotificationSound.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UnstoppableNotificationSound.entitlements; sourceTree = "<group>"; };
-		B3BAA94524B5705F00C24C1C /* DigitalWatchFS22627.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = DigitalWatchFS22627.m4a; sourceTree = "<group>"; };
-		B3BAA94724B5716500C24C1C /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		B3DCF20A24B5985A008EDA55 /* DigitalWatchFS22627.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = DigitalWatchFS22627.m4a; sourceTree = "<group>"; };
+		B3DCF20B24B5985A008EDA55 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B315002C24B57FE900AC9FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3BAA91324B56B8B00C24C1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +57,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B315003024B57FE900AC9FC5 /* UnstoppableNotificationSoundiOS */ = {
+			isa = PBXGroup;
+			children = (
+				B315003124B57FE900AC9FC5 /* UnstoppableNotificationSoundiOSApp.swift */,
+				B315003324B57FE900AC9FC5 /* ContentView.swift */,
+				B315003524B57FEA00AC9FC5 /* Assets.xcassets */,
+				B315003A24B57FEA00AC9FC5 /* Info.plist */,
+				B315003724B57FEA00AC9FC5 /* Preview Content */,
+			);
+			path = UnstoppableNotificationSoundiOS;
+			sourceTree = "<group>";
+		};
+		B315003724B57FEA00AC9FC5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B315003824B57FEA00AC9FC5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		B3BAA90D24B56B8B00C24C1C = {
 			isa = PBXGroup;
 			children = (
+				B3DCF20924B5985A008EDA55 /* Shared */,
 				B3BAA91824B56B8B00C24C1C /* UnstoppableNotificationSound */,
+				B315003024B57FE900AC9FC5 /* UnstoppableNotificationSoundiOS */,
 				B3BAA91724B56B8B00C24C1C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				B3BAA91624B56B8B00C24C1C /* UnstoppableNotificationSound.app */,
+				B315002F24B57FE900AC9FC5 /* UnstoppableNotificationSoundiOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,10 +99,8 @@
 		B3BAA91824B56B8B00C24C1C /* UnstoppableNotificationSound */ = {
 			isa = PBXGroup;
 			children = (
-				B3BAA94524B5705F00C24C1C /* DigitalWatchFS22627.m4a */,
 				B3BAA91924B56B8B00C24C1C /* UnstoppableNotificationSoundApp.swift */,
 				B3BAA91B24B56B8B00C24C1C /* ContentView.swift */,
-				B3BAA94724B5716500C24C1C /* Notifications.swift */,
 				B3BAA91D24B56B9100C24C1C /* Assets.xcassets */,
 				B3BAA92224B56B9100C24C1C /* Info.plist */,
 				B3BAA92324B56B9100C24C1C /* UnstoppableNotificationSound.entitlements */,
@@ -77,9 +117,35 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B3DCF20924B5985A008EDA55 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B3DCF20A24B5985A008EDA55 /* DigitalWatchFS22627.m4a */,
+				B3DCF20B24B5985A008EDA55 /* Notifications.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B315002E24B57FE900AC9FC5 /* UnstoppableNotificationSoundiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B315003B24B57FEA00AC9FC5 /* Build configuration list for PBXNativeTarget "UnstoppableNotificationSoundiOS" */;
+			buildPhases = (
+				B315002B24B57FE900AC9FC5 /* Sources */,
+				B315002C24B57FE900AC9FC5 /* Frameworks */,
+				B315002D24B57FE900AC9FC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnstoppableNotificationSoundiOS;
+			productName = UnstoppableNotificationSoundiOS;
+			productReference = B315002F24B57FE900AC9FC5 /* UnstoppableNotificationSoundiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		B3BAA91524B56B8B00C24C1C /* UnstoppableNotificationSound */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3BAA93C24B56B9100C24C1C /* Build configuration list for PBXNativeTarget "UnstoppableNotificationSound" */;
@@ -106,6 +172,9 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					B315002E24B57FE900AC9FC5 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					B3BAA91524B56B8B00C24C1C = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -125,16 +194,27 @@
 			projectRoot = "";
 			targets = (
 				B3BAA91524B56B8B00C24C1C /* UnstoppableNotificationSound */,
+				B315002E24B57FE900AC9FC5 /* UnstoppableNotificationSoundiOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B315002D24B57FE900AC9FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DCF20D24B5985A008EDA55 /* DigitalWatchFS22627.m4a in Resources */,
+				B315003924B57FEA00AC9FC5 /* Preview Assets.xcassets in Resources */,
+				B315003624B57FEA00AC9FC5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3BAA91424B56B8B00C24C1C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3BAA94624B5705F00C24C1C /* DigitalWatchFS22627.m4a in Resources */,
+				B3DCF20C24B5985A008EDA55 /* DigitalWatchFS22627.m4a in Resources */,
 				B3BAA92124B56B9100C24C1C /* Preview Assets.xcassets in Resources */,
 				B3BAA91E24B56B9100C24C1C /* Assets.xcassets in Resources */,
 			);
@@ -143,11 +223,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B315002B24B57FE900AC9FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DCF20F24B5985A008EDA55 /* Notifications.swift in Sources */,
+				B315003424B57FE900AC9FC5 /* ContentView.swift in Sources */,
+				B315003224B57FE900AC9FC5 /* UnstoppableNotificationSoundiOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3BAA91224B56B8B00C24C1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3BAA94824B5716500C24C1C /* Notifications.swift in Sources */,
+				B3DCF20E24B5985A008EDA55 /* Notifications.swift in Sources */,
 				B3BAA91C24B56B8B00C24C1C /* ContentView.swift in Sources */,
 				B3BAA91A24B56B8B00C24C1C /* UnstoppableNotificationSoundApp.swift in Sources */,
 			);
@@ -156,6 +246,51 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		B315003C24B57FEA00AC9FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"UnstoppableNotificationSoundiOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UnstoppableNotificationSoundiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dueapps.UnstoppableNotificationSoundiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B315003D24B57FEA00AC9FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"UnstoppableNotificationSoundiOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UnstoppableNotificationSoundiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dueapps.UnstoppableNotificationSoundiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		B3BAA93A24B56B9100C24C1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -318,6 +453,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B315003B24B57FEA00AC9FC5 /* Build configuration list for PBXNativeTarget "UnstoppableNotificationSoundiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B315003C24B57FEA00AC9FC5 /* Debug */,
+				B315003D24B57FEA00AC9FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B3BAA91124B56B8B00C24C1C /* Build configuration list for PBXProject "UnstoppableNotificationSound" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
