@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3BAA91A24B56B8B00C24C1C /* UnstoppableNotificationSoundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BAA91924B56B8B00C24C1C /* UnstoppableNotificationSoundApp.swift */; };
+		B3BAA91C24B56B8B00C24C1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BAA91B24B56B8B00C24C1C /* ContentView.swift */; };
+		B3BAA91E24B56B9100C24C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BAA91D24B56B9100C24C1C /* Assets.xcassets */; };
+		B3BAA92124B56B9100C24C1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BAA92024B56B9100C24C1C /* Preview Assets.xcassets */; };
+		B3BAA92D24B56B9100C24C1C /* UnstoppableNotificationSoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BAA92C24B56B9100C24C1C /* UnstoppableNotificationSoundTests.swift */; };
+		B3BAA93824B56B9100C24C1C /* UnstoppableNotificationSoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BAA93724B56B9100C24C1C /* UnstoppableNotificationSoundUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3BAA92924B56B9100C24C1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3BAA90E24B56B8B00C24C1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3BAA91524B56B8B00C24C1C;
+			remoteInfo = UnstoppableNotificationSound;
+		};
+		B3BAA93424B56B9100C24C1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3BAA90E24B56B8B00C24C1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3BAA91524B56B8B00C24C1C;
+			remoteInfo = UnstoppableNotificationSound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3BAA91624B56B8B00C24C1C /* UnstoppableNotificationSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnstoppableNotificationSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BAA91924B56B8B00C24C1C /* UnstoppableNotificationSoundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnstoppableNotificationSoundApp.swift; sourceTree = "<group>"; };
+		B3BAA91B24B56B8B00C24C1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3BAA91D24B56B9100C24C1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3BAA92024B56B9100C24C1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3BAA92224B56B9100C24C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3BAA92324B56B9100C24C1C /* UnstoppableNotificationSound.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UnstoppableNotificationSound.entitlements; sourceTree = "<group>"; };
+		B3BAA92824B56B9100C24C1C /* UnstoppableNotificationSoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnstoppableNotificationSoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BAA92C24B56B9100C24C1C /* UnstoppableNotificationSoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnstoppableNotificationSoundTests.swift; sourceTree = "<group>"; };
+		B3BAA92E24B56B9100C24C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3BAA93324B56B9100C24C1C /* UnstoppableNotificationSoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnstoppableNotificationSoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BAA93724B56B9100C24C1C /* UnstoppableNotificationSoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnstoppableNotificationSoundUITests.swift; sourceTree = "<group>"; };
+		B3BAA93924B56B9100C24C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3BAA91324B56B8B00C24C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BAA92524B56B9100C24C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BAA93024B56B9100C24C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3BAA90D24B56B8B00C24C1C = {
+			isa = PBXGroup;
+			children = (
+				B3BAA91824B56B8B00C24C1C /* UnstoppableNotificationSound */,
+				B3BAA92B24B56B9100C24C1C /* UnstoppableNotificationSoundTests */,
+				B3BAA93624B56B9100C24C1C /* UnstoppableNotificationSoundUITests */,
+				B3BAA91724B56B8B00C24C1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3BAA91724B56B8B00C24C1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3BAA91624B56B8B00C24C1C /* UnstoppableNotificationSound.app */,
+				B3BAA92824B56B9100C24C1C /* UnstoppableNotificationSoundTests.xctest */,
+				B3BAA93324B56B9100C24C1C /* UnstoppableNotificationSoundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3BAA91824B56B8B00C24C1C /* UnstoppableNotificationSound */ = {
+			isa = PBXGroup;
+			children = (
+				B3BAA91924B56B8B00C24C1C /* UnstoppableNotificationSoundApp.swift */,
+				B3BAA91B24B56B8B00C24C1C /* ContentView.swift */,
+				B3BAA91D24B56B9100C24C1C /* Assets.xcassets */,
+				B3BAA92224B56B9100C24C1C /* Info.plist */,
+				B3BAA92324B56B9100C24C1C /* UnstoppableNotificationSound.entitlements */,
+				B3BAA91F24B56B9100C24C1C /* Preview Content */,
+			);
+			path = UnstoppableNotificationSound;
+			sourceTree = "<group>";
+		};
+		B3BAA91F24B56B9100C24C1C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B3BAA92024B56B9100C24C1C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3BAA92B24B56B9100C24C1C /* UnstoppableNotificationSoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3BAA92C24B56B9100C24C1C /* UnstoppableNotificationSoundTests.swift */,
+				B3BAA92E24B56B9100C24C1C /* Info.plist */,
+			);
+			path = UnstoppableNotificationSoundTests;
+			sourceTree = "<group>";
+		};
+		B3BAA93624B56B9100C24C1C /* UnstoppableNotificationSoundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3BAA93724B56B9100C24C1C /* UnstoppableNotificationSoundUITests.swift */,
+				B3BAA93924B56B9100C24C1C /* Info.plist */,
+			);
+			path = UnstoppableNotificationSoundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3BAA91524B56B8B00C24C1C /* UnstoppableNotificationSound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3BAA93C24B56B9100C24C1C /* Build configuration list for PBXNativeTarget "UnstoppableNotificationSound" */;
+			buildPhases = (
+				B3BAA91224B56B8B00C24C1C /* Sources */,
+				B3BAA91324B56B8B00C24C1C /* Frameworks */,
+				B3BAA91424B56B8B00C24C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnstoppableNotificationSound;
+			productName = UnstoppableNotificationSound;
+			productReference = B3BAA91624B56B8B00C24C1C /* UnstoppableNotificationSound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3BAA92724B56B9100C24C1C /* UnstoppableNotificationSoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3BAA93F24B56B9100C24C1C /* Build configuration list for PBXNativeTarget "UnstoppableNotificationSoundTests" */;
+			buildPhases = (
+				B3BAA92424B56B9100C24C1C /* Sources */,
+				B3BAA92524B56B9100C24C1C /* Frameworks */,
+				B3BAA92624B56B9100C24C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3BAA92A24B56B9100C24C1C /* PBXTargetDependency */,
+			);
+			name = UnstoppableNotificationSoundTests;
+			productName = UnstoppableNotificationSoundTests;
+			productReference = B3BAA92824B56B9100C24C1C /* UnstoppableNotificationSoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3BAA93224B56B9100C24C1C /* UnstoppableNotificationSoundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3BAA94224B56B9100C24C1C /* Build configuration list for PBXNativeTarget "UnstoppableNotificationSoundUITests" */;
+			buildPhases = (
+				B3BAA92F24B56B9100C24C1C /* Sources */,
+				B3BAA93024B56B9100C24C1C /* Frameworks */,
+				B3BAA93124B56B9100C24C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3BAA93524B56B9100C24C1C /* PBXTargetDependency */,
+			);
+			name = UnstoppableNotificationSoundUITests;
+			productName = UnstoppableNotificationSoundUITests;
+			productReference = B3BAA93324B56B9100C24C1C /* UnstoppableNotificationSoundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3BAA90E24B56B8B00C24C1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B3BAA91524B56B8B00C24C1C = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					B3BAA92724B56B9100C24C1C = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = B3BAA91524B56B8B00C24C1C;
+					};
+					B3BAA93224B56B9100C24C1C = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = B3BAA91524B56B8B00C24C1C;
+					};
+				};
+			};
+			buildConfigurationList = B3BAA91124B56B8B00C24C1C /* Build configuration list for PBXProject "UnstoppableNotificationSound" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3BAA90D24B56B8B00C24C1C;
+			productRefGroup = B3BAA91724B56B8B00C24C1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3BAA91524B56B8B00C24C1C /* UnstoppableNotificationSound */,
+				B3BAA92724B56B9100C24C1C /* UnstoppableNotificationSoundTests */,
+				B3BAA93224B56B9100C24C1C /* UnstoppableNotificationSoundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3BAA91424B56B8B00C24C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BAA92124B56B9100C24C1C /* Preview Assets.xcassets in Resources */,
+				B3BAA91E24B56B9100C24C1C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BAA92624B56B9100C24C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BAA93124B56B9100C24C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3BAA91224B56B8B00C24C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BAA91C24B56B8B00C24C1C /* ContentView.swift in Sources */,
+				B3BAA91A24B56B8B00C24C1C /* UnstoppableNotificationSoundApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BAA92424B56B9100C24C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BAA92D24B56B9100C24C1C /* UnstoppableNotificationSoundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BAA92F24B56B9100C24C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BAA93824B56B9100C24C1C /* UnstoppableNotificationSoundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3BAA92A24B56B9100C24C1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3BAA91524B56B8B00C24C1C /* UnstoppableNotificationSound */;
+			targetProxy = B3BAA92924B56B9100C24C1C /* PBXContainerItemProxy */;
+		};
+		B3BAA93524B56B9100C24C1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3BAA91524B56B8B00C24C1C /* UnstoppableNotificationSound */;
+			targetProxy = B3BAA93424B56B9100C24C1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B3BAA93A24B56B9100C24C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3BAA93B24B56B9100C24C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B3BAA93D24B56B9100C24C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UnstoppableNotificationSound/UnstoppableNotificationSound.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"UnstoppableNotificationSound/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UnstoppableNotificationSound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dueapps.UnstoppableNotificationSound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B3BAA93E24B56B9100C24C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UnstoppableNotificationSound/UnstoppableNotificationSound.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"UnstoppableNotificationSound/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UnstoppableNotificationSound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dueapps.UnstoppableNotificationSound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B3BAA94024B56B9100C24C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnstoppableNotificationSoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dueapps.UnstoppableNotificationSoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnstoppableNotificationSound.app/Contents/MacOS/UnstoppableNotificationSound";
+			};
+			name = Debug;
+		};
+		B3BAA94124B56B9100C24C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnstoppableNotificationSoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dueapps.UnstoppableNotificationSoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnstoppableNotificationSound.app/Contents/MacOS/UnstoppableNotificationSound";
+			};
+			name = Release;
+		};
+		B3BAA94324B56B9100C24C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnstoppableNotificationSoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dueapps.UnstoppableNotificationSoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UnstoppableNotificationSound;
+			};
+			name = Debug;
+		};
+		B3BAA94424B56B9100C24C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnstoppableNotificationSoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dueapps.UnstoppableNotificationSoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UnstoppableNotificationSound;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3BAA91124B56B8B00C24C1C /* Build configuration list for PBXProject "UnstoppableNotificationSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BAA93A24B56B9100C24C1C /* Debug */,
+				B3BAA93B24B56B9100C24C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3BAA93C24B56B9100C24C1C /* Build configuration list for PBXNativeTarget "UnstoppableNotificationSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BAA93D24B56B9100C24C1C /* Debug */,
+				B3BAA93E24B56B9100C24C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3BAA93F24B56B9100C24C1C /* Build configuration list for PBXNativeTarget "UnstoppableNotificationSoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BAA94024B56B9100C24C1C /* Debug */,
+				B3BAA94124B56B9100C24C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3BAA94224B56B9100C24C1C /* Build configuration list for PBXNativeTarget "UnstoppableNotificationSoundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BAA94324B56B9100C24C1C /* Debug */,
+				B3BAA94424B56B9100C24C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3BAA90E24B56B8B00C24C1C /* Project object */;
+}
