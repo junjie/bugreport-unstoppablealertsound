@@ -9,7 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!").padding()
+        VStack {
+            Text("This demo project schedules a notification with a long alert sound with Notification Center.")
+            Spacer().frame(height: 20)
+            HStack {
+                Button("Fire Notification") {
+                    Notifications.shared.fireNotification()
+                }
+                Button("Stop Notification") {
+                    Notifications.shared.cancelNotification()
+                }
+            }
+        }
+        .padding(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10))
+        .frame(minWidth: 400, minHeight: 200)
     }
 }
 

@@ -11,26 +11,9 @@
 		B3BAA91C24B56B8B00C24C1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BAA91B24B56B8B00C24C1C /* ContentView.swift */; };
 		B3BAA91E24B56B9100C24C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BAA91D24B56B9100C24C1C /* Assets.xcassets */; };
 		B3BAA92124B56B9100C24C1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BAA92024B56B9100C24C1C /* Preview Assets.xcassets */; };
-		B3BAA92D24B56B9100C24C1C /* UnstoppableNotificationSoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BAA92C24B56B9100C24C1C /* UnstoppableNotificationSoundTests.swift */; };
-		B3BAA93824B56B9100C24C1C /* UnstoppableNotificationSoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BAA93724B56B9100C24C1C /* UnstoppableNotificationSoundUITests.swift */; };
+		B3BAA94624B5705F00C24C1C /* DigitalWatchFS22627.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B3BAA94524B5705F00C24C1C /* DigitalWatchFS22627.m4a */; };
+		B3BAA94824B5716500C24C1C /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BAA94724B5716500C24C1C /* Notifications.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B3BAA92924B56B9100C24C1C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B3BAA90E24B56B8B00C24C1C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B3BAA91524B56B8B00C24C1C;
-			remoteInfo = UnstoppableNotificationSound;
-		};
-		B3BAA93424B56B9100C24C1C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B3BAA90E24B56B8B00C24C1C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B3BAA91524B56B8B00C24C1C;
-			remoteInfo = UnstoppableNotificationSound;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B3BAA91624B56B8B00C24C1C /* UnstoppableNotificationSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnstoppableNotificationSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,30 +23,12 @@
 		B3BAA92024B56B9100C24C1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3BAA92224B56B9100C24C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3BAA92324B56B9100C24C1C /* UnstoppableNotificationSound.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UnstoppableNotificationSound.entitlements; sourceTree = "<group>"; };
-		B3BAA92824B56B9100C24C1C /* UnstoppableNotificationSoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnstoppableNotificationSoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3BAA92C24B56B9100C24C1C /* UnstoppableNotificationSoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnstoppableNotificationSoundTests.swift; sourceTree = "<group>"; };
-		B3BAA92E24B56B9100C24C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3BAA93324B56B9100C24C1C /* UnstoppableNotificationSoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnstoppableNotificationSoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3BAA93724B56B9100C24C1C /* UnstoppableNotificationSoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnstoppableNotificationSoundUITests.swift; sourceTree = "<group>"; };
-		B3BAA93924B56B9100C24C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3BAA94524B5705F00C24C1C /* DigitalWatchFS22627.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = DigitalWatchFS22627.m4a; sourceTree = "<group>"; };
+		B3BAA94724B5716500C24C1C /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B3BAA91324B56B8B00C24C1C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3BAA92524B56B9100C24C1C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3BAA93024B56B9100C24C1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,8 +42,6 @@
 			isa = PBXGroup;
 			children = (
 				B3BAA91824B56B8B00C24C1C /* UnstoppableNotificationSound */,
-				B3BAA92B24B56B9100C24C1C /* UnstoppableNotificationSoundTests */,
-				B3BAA93624B56B9100C24C1C /* UnstoppableNotificationSoundUITests */,
 				B3BAA91724B56B8B00C24C1C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,8 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				B3BAA91624B56B8B00C24C1C /* UnstoppableNotificationSound.app */,
-				B3BAA92824B56B9100C24C1C /* UnstoppableNotificationSoundTests.xctest */,
-				B3BAA93324B56B9100C24C1C /* UnstoppableNotificationSoundUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,8 +57,10 @@
 		B3BAA91824B56B8B00C24C1C /* UnstoppableNotificationSound */ = {
 			isa = PBXGroup;
 			children = (
+				B3BAA94524B5705F00C24C1C /* DigitalWatchFS22627.m4a */,
 				B3BAA91924B56B8B00C24C1C /* UnstoppableNotificationSoundApp.swift */,
 				B3BAA91B24B56B8B00C24C1C /* ContentView.swift */,
+				B3BAA94724B5716500C24C1C /* Notifications.swift */,
 				B3BAA91D24B56B9100C24C1C /* Assets.xcassets */,
 				B3BAA92224B56B9100C24C1C /* Info.plist */,
 				B3BAA92324B56B9100C24C1C /* UnstoppableNotificationSound.entitlements */,
@@ -112,24 +75,6 @@
 				B3BAA92024B56B9100C24C1C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		B3BAA92B24B56B9100C24C1C /* UnstoppableNotificationSoundTests */ = {
-			isa = PBXGroup;
-			children = (
-				B3BAA92C24B56B9100C24C1C /* UnstoppableNotificationSoundTests.swift */,
-				B3BAA92E24B56B9100C24C1C /* Info.plist */,
-			);
-			path = UnstoppableNotificationSoundTests;
-			sourceTree = "<group>";
-		};
-		B3BAA93624B56B9100C24C1C /* UnstoppableNotificationSoundUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B3BAA93724B56B9100C24C1C /* UnstoppableNotificationSoundUITests.swift */,
-				B3BAA93924B56B9100C24C1C /* Info.plist */,
-			);
-			path = UnstoppableNotificationSoundUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,42 +97,6 @@
 			productReference = B3BAA91624B56B8B00C24C1C /* UnstoppableNotificationSound.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B3BAA92724B56B9100C24C1C /* UnstoppableNotificationSoundTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B3BAA93F24B56B9100C24C1C /* Build configuration list for PBXNativeTarget "UnstoppableNotificationSoundTests" */;
-			buildPhases = (
-				B3BAA92424B56B9100C24C1C /* Sources */,
-				B3BAA92524B56B9100C24C1C /* Frameworks */,
-				B3BAA92624B56B9100C24C1C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B3BAA92A24B56B9100C24C1C /* PBXTargetDependency */,
-			);
-			name = UnstoppableNotificationSoundTests;
-			productName = UnstoppableNotificationSoundTests;
-			productReference = B3BAA92824B56B9100C24C1C /* UnstoppableNotificationSoundTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B3BAA93224B56B9100C24C1C /* UnstoppableNotificationSoundUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B3BAA94224B56B9100C24C1C /* Build configuration list for PBXNativeTarget "UnstoppableNotificationSoundUITests" */;
-			buildPhases = (
-				B3BAA92F24B56B9100C24C1C /* Sources */,
-				B3BAA93024B56B9100C24C1C /* Frameworks */,
-				B3BAA93124B56B9100C24C1C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B3BAA93524B56B9100C24C1C /* PBXTargetDependency */,
-			);
-			name = UnstoppableNotificationSoundUITests;
-			productName = UnstoppableNotificationSoundUITests;
-			productReference = B3BAA93324B56B9100C24C1C /* UnstoppableNotificationSoundUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,14 +108,6 @@
 				TargetAttributes = {
 					B3BAA91524B56B8B00C24C1C = {
 						CreatedOnToolsVersion = 12.0;
-					};
-					B3BAA92724B56B9100C24C1C = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = B3BAA91524B56B8B00C24C1C;
-					};
-					B3BAA93224B56B9100C24C1C = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = B3BAA91524B56B8B00C24C1C;
 					};
 				};
 			};
@@ -224,8 +125,6 @@
 			projectRoot = "";
 			targets = (
 				B3BAA91524B56B8B00C24C1C /* UnstoppableNotificationSound */,
-				B3BAA92724B56B9100C24C1C /* UnstoppableNotificationSoundTests */,
-				B3BAA93224B56B9100C24C1C /* UnstoppableNotificationSoundUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,22 +134,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3BAA94624B5705F00C24C1C /* DigitalWatchFS22627.m4a in Resources */,
 				B3BAA92124B56B9100C24C1C /* Preview Assets.xcassets in Resources */,
 				B3BAA91E24B56B9100C24C1C /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3BAA92624B56B9100C24C1C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3BAA93124B56B9100C24C1C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,41 +147,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3BAA94824B5716500C24C1C /* Notifications.swift in Sources */,
 				B3BAA91C24B56B8B00C24C1C /* ContentView.swift in Sources */,
 				B3BAA91A24B56B8B00C24C1C /* UnstoppableNotificationSoundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3BAA92424B56B9100C24C1C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B3BAA92D24B56B9100C24C1C /* UnstoppableNotificationSoundTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3BAA92F24B56B9100C24C1C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B3BAA93824B56B9100C24C1C /* UnstoppableNotificationSoundUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B3BAA92A24B56B9100C24C1C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B3BAA91524B56B8B00C24C1C /* UnstoppableNotificationSound */;
-			targetProxy = B3BAA92924B56B9100C24C1C /* PBXContainerItemProxy */;
-		};
-		B3BAA93524B56B9100C24C1C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B3BAA91524B56B8B00C24C1C /* UnstoppableNotificationSound */;
-			targetProxy = B3BAA93424B56B9100C24C1C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B3BAA93A24B56B9100C24C1C /* Debug */ = {
@@ -457,86 +315,6 @@
 			};
 			name = Release;
 		};
-		B3BAA94024B56B9100C24C1C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = UnstoppableNotificationSoundTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dueapps.UnstoppableNotificationSoundTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnstoppableNotificationSound.app/Contents/MacOS/UnstoppableNotificationSound";
-			};
-			name = Debug;
-		};
-		B3BAA94124B56B9100C24C1C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = UnstoppableNotificationSoundTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dueapps.UnstoppableNotificationSoundTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnstoppableNotificationSound.app/Contents/MacOS/UnstoppableNotificationSound";
-			};
-			name = Release;
-		};
-		B3BAA94324B56B9100C24C1C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = UnstoppableNotificationSoundUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dueapps.UnstoppableNotificationSoundUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = UnstoppableNotificationSound;
-			};
-			name = Debug;
-		};
-		B3BAA94424B56B9100C24C1C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = UnstoppableNotificationSoundUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dueapps.UnstoppableNotificationSoundUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = UnstoppableNotificationSound;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -554,24 +332,6 @@
 			buildConfigurations = (
 				B3BAA93D24B56B9100C24C1C /* Debug */,
 				B3BAA93E24B56B9100C24C1C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B3BAA93F24B56B9100C24C1C /* Build configuration list for PBXNativeTarget "UnstoppableNotificationSoundTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B3BAA94024B56B9100C24C1C /* Debug */,
-				B3BAA94124B56B9100C24C1C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B3BAA94224B56B9100C24C1C /* Build configuration list for PBXNativeTarget "UnstoppableNotificationSoundUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B3BAA94324B56B9100C24C1C /* Debug */,
-				B3BAA94424B56B9100C24C1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
